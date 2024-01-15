@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #eaeaea; */
+}
+
+/* .carousel-indicators .indicator {
+  background-color: black;
+} */
+
+#team .team {
+  filter: grayscale(100%);
+  transition: all .3s ease-in;
+}
+
+#team .team:hover {
+  filter: grayscale(0%);
+}
