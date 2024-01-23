@@ -1,0 +1,99 @@
+@media screen and (max-width : 992px) {
+  .button-navbar {
+    margin-top: 15px;
+  }
+
+  .hero-image {
+    width: 60vh;
+    height: 60vh;
+  }
+
+  .header-banner-quote {
+    line-height: normal;
+    /* atas kanan-kiri bawah*/
+    margin: 30px 0 20px;
+    font-size: 20px;
+  }
+
+  .detail-banner-quote {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .button-navbar {
+    margin-top: 15px;
+  }
+
+  .header-banner-quote {
+    line-height: normal;
+    /* atas kanan-kiri bawah*/
+    margin: 20px 0 10px;
+    font-size: 18px;
+  }
+
+  .detail-banner-quote {
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  .hero-image {
+    width: 50vh;
+    height: 55vh;
+  }
+
+  .button-quote {
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width : 576px) {
+  .button-navbar {
+    margin-top: 15px;
+  }
+
+  .testing {
+    text-align: center;
+  }
+
+  h3.header-banner-quote {
+    text-align: center;
+  }
+
+  p.detail-banner-quote {
+    text-align: center;
+  }
+
+  .button-quote-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .carousel-indicators .indicator {
+    background-color: red !important;
+    display: none;
+    /* margin-bottom: -1000px !important; */
+  }
+
+  .custom-nav {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width : 350px) {
+  .button-navbar {
+    margin-top: 15px;
+  }
+}

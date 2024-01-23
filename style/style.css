@@ -1,11 +1,82 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  /* background-color: #eaeaea; */
+:root {
+  --pr-color: #23B0BC;
+  --sc-color: #E1A557;
 }
 
-/* .carousel-indicators .indicator {
-  background-color: black;
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.button-navbar {
+  background-color: var(--pr-color);
+  color: #fff;
+  border: none;
+}
+
+/* HERO */
+section#hero {
+  margin: 100px 0 120px;
+}
+
+
+.header-banner-quote {
+  line-height: 2em;
+  /* atas kanan-kiri bawah*/
+  margin: 60px 0 15px;
+}
+
+.detail-banner-quote {
+  line-height: 1.75em;
+  margin-bottom: 50px;
+}
+
+.header-banner-quote span {
+  color: var(--pr-color);
+}
+
+.button-quote {
+  background-color: var(--pr-color);
+  color: #fff;
+  border: none;
+}
+
+.hero-image {
+  /* width: 100%;
+  height: 100%; */
+}
+
+/* SERVICES */
+section#services {
+  margin-bottom: 120px;
+}
+
+#services h3 {
+  color: var(--sc-color);
+  font-weight: bold;
+}
+
+
+/* GALLERY */
+/* section#services {
+  margin-bottom: 120px;
 } */
+
+#gallery h3 {
+  color: var(--sc-color);
+  font-weight: bold;
+}
+
+
+/* TEAM */
+section#team {
+  margin-bottom: 120px;
+}
+
+#team h3 {
+  color: var(--sc-color);
+  font-weight: bold;
+}
 
 #team .team {
   filter: grayscale(100%);
@@ -14,4 +85,10 @@ body {
 
 #team .team:hover {
   filter: grayscale(0%);
+}
+
+/* CLIENTS */
+#clients h3 {
+  color: var(--sc-color);
+  font-weight: bold;
 }

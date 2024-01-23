@@ -7,17 +7,19 @@
 
     <!-- my style and favicon -->
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
     <link rel="shortcut icon" href="asset/logo maxmore 1.png" type="image/x-icon" />
 
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
     <title>Maxmoore Studio</title>
   </head>
-  <body style="min-height: 3000px">
+  <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary my-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="asset/logo maxmore 1.png" alt="Bootstrap" />
@@ -25,19 +27,19 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse text-sm-center custom-nav" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
             <a class="nav-link active mx-3" href="#">Service</a>
             <a class="nav-link active mx-3" href="#">Gallery</a>
             <a class="nav-link active mx-3" href="#">Order</a>
           </div>
-          <button class="btn btn-info rounded-5">Contact Us</button>
+          <a href="#"> <button class="button-navbar rounded-5 p-2 ps-3 pe-3">Contact Us</button></a>
         </div>
       </div>
     </nav>
-    <!-- END NAVBAR -->
+    <!-- END NAVBAR
 
-    <!-- HERO -->
+    <!-- CAROUSEL HERO -->
     <section id="hero">
       <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -48,6 +50,56 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
+              <div class="row">
+                <div class="col-12 col-sm-5">
+                  <h3 class="header-banner-quote"><span class="fw-bold">Elevate</span> Your Brand's Story with <span class="fw-bold">Our Top-Tier Design</span> Wizardry</h3>
+                  <p class="detail-banner-quote">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ipsam consequatur ea laboriosam minus, eaque molestias ut deserunt sint modi sit velit asperiores odio, facere perspiciatis at, vel quidem corrupti!
+                  </p>
+                  <div class="button-quote-wrap">
+                    <button class="button-quote rounded-5 p-2 ps-4 pe-4">Get a Quote</button>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-7">
+                  <img src="asset/Header Image.png" alt="" class="hero-image" />
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-12 col-sm-5">
+                  <h3 class="header-banner-quote"><span class="fw-bold">Elevate</span> Your Brand's Story with <span class="fw-bold">Our Top-Tier Design</span> Wizardry</h3>
+                  <p class="detail-banner-quote">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ipsam consequatur ea laboriosam minus, eaque molestias ut deserunt sint modi sit velit asperiores odio, facere perspiciatis at, vel quidem corrupti!
+                  </p>
+                  <div class="button-quote-wrap">
+                    <button class="button-quote rounded-5 p-2 ps-4 pe-4">Get a Quote</button>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-7">
+                  <img src="asset/Header Image.png" alt="" class="hero-image" />
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-12 col-sm-5">
+                  <h3 class="header-banner-quote"><span class="fw-bold">Elevate</span> Your Brand's Story with <span class="fw-bold">Our Top-Tier Design</span> Wizardry</h3>
+                  <p class="detail-banner-quote">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ipsam consequatur ea laboriosam minus, eaque molestias ut deserunt sint modi sit velit asperiores odio, facere perspiciatis at, vel quidem corrupti!
+                  </p>
+                  <div class="button-quote-wrap">
+                    <button class="button-quote rounded-5 p-2 ps-4 pe-4">Get a Quote</button>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-7">
+                  <img src="asset/Header Image.png" alt="" class="hero-image" />
+                </div>
+              </div>
+            </div>
+            <!-- <div class="carousel-item">
               <div class="row align-items-center">
                 <div class="col-md-5">
                   <h3 class="lh-lg"><span class="fw-bold">Elevate</span> Your Brand's Story with <span class="fw-bold">Our Top-Tier Design</span> Wizardry</h3>
@@ -74,22 +126,9 @@
                   <img src="asset/Header Image.png" alt="" />
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row align-items-center">
-                <div class="col-md-5">
-                  <h3 class="lh-lg"><span class="fw-bold">Elevate</span> Your Brand's Story with <span class="fw-bold">Our Top-Tier Design</span> Wizardry</h3>
-                  <p class="lh-lg">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ipsam consequatur ea laboriosam minus, eaque molestias ut deserunt sint modi sit velit asperiores odio, facere perspiciatis at, vel quidem corrupti!
-                  </p>
-                  <button class="btn btn-info rounded-5 p-2 ps-4 pe-4 mt-5">Get a Quote</button>
-                </div>
-                <div class="offset-1 col-6">
-                  <img src="asset/Header Image.png" alt="" />
-                </div>
-              </div>
-            </div>
+            </div> -->
           </div>
+          <!-- CODE BUTTON PREV AND NEXT CAROUSEL -->
           <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -100,6 +139,7 @@
           </button> -->
         </div>
 
+        <!-- CODE CONTENT CAROUSEL -->
         <!-- <div class="row align-items-center">
           <div class="col-5">
             <h3 class="lh-lg"><span class="fw-bold">Elevate</span> Your Brand's Story with <span class="fw-bold">Our Top-Tier Design</span> Wizardry</h3>
@@ -115,86 +155,71 @@
       </div>
     </section>
 
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col bg-primary">
-          Elevate Your Brand's <br />
-          Story with Our Top-Tier <br />
-          Design Wizardry
-        </div>
-      </div>
-      <div class="row">
-        <div class="col bg-secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus quas minus consequuntur, unde odio consectetur nobis vero nemo, optio veniam magnam repudiandae, distinctio illum nisi. Velit nulla perspiciatis neque.
-        </div>
-        <div class="col bg-success">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio voluptatem neque minima natus quidem, dolorum, officiis et eligendi, mollitia sunt. Nisi pariatur nostrum possimus qui eius quo delectus autem.
-        </div>
-      </div>
-    </div> -->
-    <!-- END HERO -->
+    <!-- END CAROUSEL HERO -->
 
     <!-- SERVICES -->
     <section id="services">
       <div class="container">
-        <div class="row text-center fw-bold my-5">
-          <div class="col">Services</div>
+        <div class="row text-center fw-bold mb-5">
+          <div class="col-12">
+            <h3>Services</h3>
+          </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="border: 0px dashed white">
               <a href="" style="text-decoration: none">
-                <img src="asset/Rectangle 6615.png" class="card-img-top" alt="projects 1" />
+                <img src="asset/Rectangle 6615.png" class="card-img-top" alt="" />
                 <div class="card-body" style="padding-left: 5px; padding-top: 0">
                   <p class="card-text" style="color: black">Web Design</p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="border: 0px dashed white">
               <a href="" style="text-decoration: none">
-                <img src="asset/Rectangle 6616.png" class="card-img-top" alt="projects 1" />
+                <img src="asset/Rectangle 6616.png" class="card-img-top" alt="" />
                 <div class="card-body" style="padding-left: 5px; padding-top: 0">
                   <p class="card-text" style="color: black">Logo & Brand Identity</p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="border: 0px dashed white">
               <a href="" style="text-decoration: none">
-                <img src="asset/Rectangle 6617.png" class="card-img-top" alt="projects 1" />
+                <img src="asset/Rectangle 6617.png" class="card-img-top" alt="" />
                 <div class="card-body" style="padding-left: 5px; padding-top: 0">
                   <p class="card-text" style="color: black">Social Media Design</p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="border: 0px dashed white">
               <a href="" style="text-decoration: none">
-                <img src="asset/Rectangle 6618.png" class="card-img-top" alt="projects 1" />
+                <img src="asset/Rectangle 6618.png" class="card-img-top" alt="" />
                 <div class="card-body" style="padding-left: 5px; padding-top: 0">
                   <p class="card-text" style="color: black">Art & Illustration</p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="border: 0px dashed white">
               <a href="" style="text-decoration: none">
-                <img src="asset/Rectangle 6619.png" class="card-img-top" alt="projects 1" />
+                <img src="asset/Rectangle 6619.png" class="card-img-top" alt="" />
                 <div class="card-body" style="padding-left: 5px; padding-top: 0">
                   <p class="card-text" style="color: black">Clothing & Merchendise</p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="border: 0px dashed white">
               <a href="" style="text-decoration: none">
-                <img src="asset/Rectangle 6620.png" class="card-img-top" alt="projects 1" />
+                <img src="asset/Rectangle 6620.png" class="card-img-top" alt="" />
                 <div class="card-body" style="padding-left: 5px; padding-top: 0">
                   <p class="card-text" style="color: black">Customize Service</p>
                 </div>
@@ -210,7 +235,9 @@
     <section id="gallery">
       <div class="container">
         <div class="row text-center fw-bold my-5">
-          <div class="col">Services</div>
+          <div class="col">
+            <h3>Gallery</h3>
+          </div>
         </div>
         <div class="row">
           <div class="col-8">
@@ -235,21 +262,23 @@
 
     <!-- TEAM -->
     <section id="team">
-      <div class="container">
+      <div class="container overflow-hidden">
         <div class="row text-center fw-bold my-5">
-          <div class="col">Services</div>
+          <div class="col-12">
+            <h3>Team</h3>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-3">
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6">
             <img src="asset/Hari Color.png" alt="" class="team" />
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-sm-6">
             <img src="asset/Hari Color.png" alt="" class="team" />
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-sm-6">
             <img src="asset/Hari Color.png" alt="" class="team" />
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-sm-6">
             <img src="asset/Hari Color.png" alt="" class="team" />
           </div>
         </div>
@@ -261,42 +290,44 @@
     <section id="clients">
       <div class="container">
         <div class="row text-center fw-bold my-5">
-          <div class="col">Clients</div>
+          <div class="col-12">
+            <h3>Clients</h3>
+          </div>
         </div>
       </div>
       <div class="container d-flex justify-content-around gap-5">
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/brex.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/opensea.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/instacart.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/brex.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/opensea.png" alt="" />
         </div>
       </div>
 
-      <div class="container d-flex justify-content-around gap-5 mt-5">
+      <div class="container d-flex justify-content-around gap-5">
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/brex.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/opensea.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/instacart.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/brex.png" alt="" />
         </div>
         <div class="row">
-          <img src="asset/Rectangle 6615.png" alt="" style="width: 100px; height: 100px" />
+          <img src="asset/opensea.png" alt="" />
         </div>
       </div>
     </section>
@@ -304,12 +335,15 @@
 
     <!-- CONTACT -->
     <section id="contact">
-      <div class="container bg-primary">
+      <div class="container overflow-hidden">
         <div class="row text-center fw-bold my-5">
-          <div class="col-12">
-            <h5>Got a project ?</h5>
-            <h1 class="my-2">Let's Talk!</h1>
-            <button class="btn btn-info mt-3">Get a Quote</button>
+          <div class="col-12 position-relative">
+            <img src="asset/bg-contact us.png" alt="" srcset="" />
+            <div class="info-talk position-absolute top-50 start-50 translate-middle text-white">
+              <h5>Got a project ?</h5>
+              <h1 class="my-2">Let's Talk!</h1>
+              <button class="btn btn-info mt-3">Get a Quote</button>
+            </div>
           </div>
         </div>
       </div>
@@ -333,6 +367,9 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary mt-5">
       <div class="container">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
             <a class="nav-link active mx-3" href="#">Service</a>
